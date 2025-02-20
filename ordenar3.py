@@ -24,6 +24,8 @@ elif numero1 >= numero2 and numero2 >= numero3:
 elif numero3 >= numero2 and numero2 >= numero1:
     resultado = str(numero3) + " " + str(numero2) + " " + str(numero1)
 elif numero1 >= numero3 and numero2 <= numero3: 
-    resultado = str(numero1) + " " + str(numero3) + " " + str(numero2)     
+    resultado = str(numero1) + " " + str(numero3) + " " + str(numero2)  
+elif numero2 >= numero1 and numero1 >= numero3: 
+    resultado= str(numero2) + " " + str(numero1) + " " + str(numero3)  
 # Salidas
 print(resultado)
